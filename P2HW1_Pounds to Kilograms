@@ -1,0 +1,11 @@
+#A Pounds to Kilograms Converter
+#08/02/2019
+#CTI-110 PHW1-Pounds to Kilograms Converter
+#Chrystian Gooding
+kilograms = float(input("What is the weight in Kilograms:"))
+
+#Convert Pounds to Kilograms
+lbs = kilograms * 2.2046
+
+#Display Convertion
+print('This is equal to lbs',format(lbs, ',.2f'))
