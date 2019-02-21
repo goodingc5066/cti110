@@ -1,0 +1,21 @@
+#A Meal and Tip Calculator
+#09/02/2019
+#CTI-110 P2HW2-Meal Tip Calculator
+#Chrystian Gooding
+meal = float(input("What is the cost of the meal:"))
+                        
+#Calculation of the tip percentages per meal.
+tip1 = meal * .15
+tip2 = meal * .18
+tip3 = meal * .20
+
+#The Display of each tip calculation.
+print('The 15% Tip is $', format(tip1, ',.2f'))
+print('The 18% Tip is $', format(tip2, ',.2f'))
+print('The 20% Tip is $', format(tip3, ',.2f'))
+
+#The calculation of the total meal price with tip included.
+print('The Total with a 15% tip is $', format(meal + tip1, ',.2f'))
+print('The Total with a 18% tip is $', format(meal + tip2, ',.2f'))
+print('The Total with a 20% tip is $', format(meal + tip3, ',.2f'))
+#Got information from the user then calculated the variables for the calculation
