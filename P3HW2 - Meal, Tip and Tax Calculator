@@ -1,0 +1,38 @@
+# CTI-110 
+# P3HW2 - MealTipTax 
+# Chrystian Gooding
+# 28/02/2019
+#Input price of meal.
+meal = float(input("What is the cost of the meal:"))
+                        
+#Calculation of the tip percentages per meal.
+tip1 = meal * .15
+tip2 = meal * .18
+tip3 = meal * .20
+
+#Calculations of the Sales Tax
+tax1 = meal * .15 * .07
+tax2 = meal * .18 * .07
+tax3 = meal * .20 * .07
+
+#The Display of each tax calculation.
+##print('The 15% tax is $', format(tax1, ',.2f'))
+##print('The 18% tax is $', format(tax2, ',.2f'))
+##print('The 20% tax is $', format(tax3, ',.2f'))
+
+#The Display of each tip calculation.
+print('The 15% Tip is $', format(tip1, ',.2f'))
+print('The 18% Tip is $', format(tip2, ',.2f'))
+print('The 20% Tip is $', format(tip3, ',.2f'))
+
+#The calculation of the total meal price with tip and tax included.
+print('The Total with a 15% tip is $', format(meal + tip1 + tax1, ',.2f'))
+print('The Total with a 18% tip is $', format(meal + tip2 + tax2, ',.2f'))
+print('The Total with a 20% tip is $', format(meal + tip3 + tax3, ',.2f'))
+
+# Input the price of the meal
+# Calculated the tips of 15%, 18%, and 20% of the entered meal price
+# Displayed the tips for the entered meal price
+# Calclated the sales tax of each of these tips on the total meal
+# Displayed the total meal price with the tip and tax calculations completed.
+
