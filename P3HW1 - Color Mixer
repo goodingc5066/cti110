@@ -1,0 +1,31 @@
+# CTI-110 
+# P3HW1 - Color Mixer 
+# Chrystian Gooding 
+# 28/02/2019
+#Input color 1.
+color1 = input('Enter the first primary color(red, blue, yellow):')
+
+#Input color 2
+color2 = input('Enter the second primary color(red, blue, yellow):')
+
+# Calculate the mixture of the colors.
+
+if  color1 == "red" and color2 == "blue" or color1 == "blue" and color2 == "red":
+   print('The secondary color is :purple')
+
+elif color1 == "red"  and color2 == "yellow" or color1 == "yellow" and color2 == "red":
+   print('The secondary color is :orange')
+
+elif  color1 == "blue" and color2 == "yellow" or color1 == "yellow" and color2 == "blue":
+   print ('The secondary color is :green')
+
+else :
+    print ('Error invalid colors')
+    
+#Input color 1
+#Input color 2
+#Calculate the mixture of color1 and color 2 which can be only be (red, blue, and yellow)
+#the primary colors are red, blue and yellow which are the only valid colors able to be assigned to the color1 and color2 postions.
+#the secondary colors are purple, orange and green which are a results of different mixtures of the primary colors.
+#If the primary colors are not entered in the color1 and color2 slots the progra will print error invalid colors.
+
