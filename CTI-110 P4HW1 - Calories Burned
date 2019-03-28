@@ -1,0 +1,11 @@
+# A Code to Calculate the amout of Calories burned on a Treadmill
+# 03/21/2019
+# CTI-110 P4HW1 - Calories Burned
+# Chrystian Gooding
+
+#this is the range where it shoes the beginning to the ending of required calories counted and the skip needed.
+for numberofminutes in range(20, 51, 15 ):
+#this is the calculation to get out the required calories burned per minute.    
+    numberofcaloriesburned = (numberofminutes / 1) * 5
+#this is the print statement where it gives the user the total of calories burned at the required mintues.    
+    print("You will burn",numberofcaloriesburned,"calories in",numberofminutes,"minutes")
